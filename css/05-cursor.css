@@ -1,0 +1,65 @@
+/* 마우스 모양 변경하기 */
+/* .사방화살표 */
+.cursor1{
+    cursor:all-scroll;
+}
+
+/* 글자기때문에 그냥 I자 나옴 */
+.cursor2{
+    cursor:auto;
+}
+
+.cursor3{
+    cursor:cell;
+}
+
+/* 컬럼 사이즈바꿈 */
+.cursor4{
+    cursor:col-resize;
+}
+
+.cursor5{
+    cursor:context-menu;
+}
+
+.cursor6{
+    cursor:copy;
+}
+
+.cursor7{
+    cursor:crosshair;
+}
+
+/* ew-resize와 동일 */
+.cursor8{
+    cursor:e-resize;
+}
+/* ; 마지막거 또는 하나는 생략가능 */
+.cursor9{
+    cursor:grab;
+}
+
+.cursor10{
+    cursor:grabbing;
+}
+
+.cursor11{
+    cursor:help;
+}
+
+.cursor12{
+    cursor:n-resize;
+}
+
+.cursor13{
+    cursor:progress;
+}
+
+.cursor17{
+    cursor:pointer;
+}
+
+/* ../ 폴더 상위로올라가라 */
+.cursor18{
+    cursor: url("../images/mini.cur"),auto;
+}

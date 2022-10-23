@@ -1,0 +1,22 @@
+*{
+    margin:0;
+}
+
+header{
+    border-top:5px solid #009223;
+    border-bottom:1px solid #ddd;
+}
+
+.innerBox{
+    max-width:1200px;
+    background-color: pink;
+    margin: 0 auto;
+    text-align:center;
+}
+/* maxwith 스크롤안생김 */
+
+.logo{
+    padding:20px 0;
+    /* 첫번째 요소에 margin-top을 주면 부모가 떨어진다: margin 오류현상이라고 한다.
+    해결방법 2가지 1. padding 2. float */
+}

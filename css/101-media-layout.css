@@ -1,0 +1,129 @@
+.innerBox{
+    background-color: rgba(255,0,0,0.2);
+    max-width: 1200px;
+    margin:0 auto;
+    position:relative;
+}
+/* 햄 */
+.hamBtn{
+    display: none;
+}
+header{
+    border-top:5px solid #009223;
+}
+.logo{
+    text-align: center;
+    padding-top: 20px;
+}
+.topmenu{
+    position:absolute;
+    right:0;
+    top:30px;
+}
+.topmenu>li{
+    float:left;
+    margin-left:15px;
+}
+#nav{
+    text-align: center;
+}
+#nav>li{
+    display: inline-block;
+    margin:20px 50px;
+}
+#nav>li>a{
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* mainBanner */
+.banner>li{
+    height:400px;
+    background-color: #009223;
+}
+#container{
+
+}
+#container section{
+    margin:30px 0;
+}
+.infoWrap>.info{
+    display: flex;
+    justify-content: space-between;
+}
+.infoWrap>div>div{
+    height:200px;
+}
+.box1{
+    background-color: pink;
+    width:24%;
+}
+.box2{
+    background-color: skyblue;
+    width: 48%;
+}
+.box3{
+    background-color: salmon;
+    width:24%;
+}
+.bannerWrap{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerWrap>div{
+    width:49%;
+    height:150px;
+    background-color: #eee;
+}
+footer{
+    height:100px;
+    background-color: #333;
+    color:white;
+}
+
+/* ipad 768px ~ 1024px */
+@media screen and (max-width:1024px){
+    /* header만바뀜 */
+    /* 1. 없애기 : top메뉴 nav
+       2. 보이기 */
+        .topmenu{
+            display: none;
+        }
+        #nav{
+            display: none;
+        }
+        .hamBtn{
+            display: block;
+            position: absolute;
+            right:10px;
+            top:30px;
+        }
+        header{
+            padding-bottom:10px;
+        }
+}
+
+/* mobile ~ 767px */
+@media screen and (max-width:767px){
+    .infoWrap>.info{
+        flex-wrap:wrap;
+    }
+    /* 2:10 */
+    .box1,.box3{
+        order:1;
+        width:49%;
+    }
+    /*박스123은 flex이므로 오더가능 */
+    .box2{
+        width:100%;
+        ORDER:2;
+    }
+}
+/* mobile ~480px */
+@media screen and (max-width:480px){
+    .box1,
+    .box2,
+    .box3{
+        width:100%;
+    }
+}

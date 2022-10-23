@@ -1,0 +1,36 @@
+/*  전체 선택자 */
+*{
+    color:green;
+}
+
+p{
+    color:gray;
+}
+
+/* color 클래스는 글자색 빨강 16진수 #redgrenblue */
+.color{
+    color:#ff0000;
+}
+
+/* color2 클래스는 글자색 파랑 10진기법 rgb */
+.color2{
+    color:rgb(0,0,255);
+}
+
+/* color3 클래스는 글자색 파랑 반투명하게 */
+.color3{
+    color:rgba(0, 0, 255, 0.5);
+}
+
+/* color4 파랑 hsla(휴-색상 새츄레이션-진하기 라이트 알파)
+자동으로 들어간 띄어쓰기 상관없음 */
+.color4{
+    color:hsla(240, 64%, 61%, 1);
+}
+
+/* #idColor */
+#idColor{
+    color:darkorange;
+}
+
+/* 전체<p<class<id 순서대로 세기가 세다 */

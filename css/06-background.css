@@ -1,0 +1,24 @@
+/* h1 배경색 */
+h1{
+    background-color:aquamarine
+}
+
+.box{
+    line-height:40px;
+    background-image:url(../images/logo_w.png);
+    background-repeat:no-repeat;
+}
+
+a{
+    line-height:40px;
+    background-image:url(../images/logo_w.png);
+}
+
+/* div는 블럭, a는 인라인이므로 내용물만큼만 이미지배경나옴 라인헤이트도 안됨 */
+
+body{
+    background-image:url(../images/bg_utilization.png);
+    background-repeat:no-repeat;
+    background-position:center 300px;
+    background-attachment:fixed;
+}

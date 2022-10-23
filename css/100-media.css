@@ -1,0 +1,36 @@
+/* pc버전 */
+body{
+    background-color: pink;
+}
+.iTitle,
+.mTitle{
+    display: none;
+}
+/* iPad 768~1023*/
+@media screen and (max-width:1023px){
+    /* 내용에 바꿔주고픈 css써주면된다 */
+   body{
+       background-color: skyblue;
+    } 
+    .pcTitle{
+        display: none;
+    }
+    .iTitle{
+        display: block;
+    }
+}
+/* 밑에서 언급하지않았지만 위에는 있는거가 상속됨 
+min 또는 max 통일해서 생략해야함 */
+
+/* mobile ~767*/
+@media screen and (max-width:767px){
+    body{
+        background-color: antiquewhite;
+    }
+    .mTitle{
+        display: block;
+    }
+    .iTitle{
+        display: none;
+    }
+}

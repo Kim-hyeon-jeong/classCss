@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* dt가 첫번째 자식임 따라서 first-child는 안된다  */
+        dl>dd:first-of-type{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>구조선택자</h1>
+    <dl>
+        <dt>html</dt>
+        <dd>hyper text markup language</dd>
+        <dd>홈페이지 레이아웃을 나타냅니다.</dd>
+        <dd>구조를 나타냅니다.</dd>
+    </dl>
+    <!-- dl과 dt는 항상 함께해야 한다 -->
+</body>
+</html>

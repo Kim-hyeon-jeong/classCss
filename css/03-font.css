@@ -1,0 +1,72 @@
+/* 전체 글자색을 #333 */
+/* 336699 면 369로 줄여쓸수있다 16진수 */
+*{
+    color:#369;
+}
+
+/* body 글씨체, 글자 크기 */
+/* 글씨체 없을수도있으니 대체될만한것 옆에 쓰기 */
+body{
+    font-family:"돋움",dotum,sans-serif;
+    font-size:15px;
+}
+
+/* h2 가운데 정렬 */
+h2{
+    text-align: center;
+}
+
+/* .rightText 오른쪽으로 보내고, 글자크기 13px=15*0.87 */
+.rightText{
+    text-align:right;
+    font-size:0.87em;
+}
+
+.rightText>span{
+    font-weight:bold;
+}
+
+/* h3 글자색  */
+h3{
+    color:hotpink;
+}
+
+.bigText{
+    font-size:2.5em;
+}
+
+.bigText>span{
+    color:green;
+}
+
+a{
+    color:pink;
+    text-decoration:none;
+}
+
+/* .text 글자 기울기
+    밑줄
+*/
+
+.text{
+    font-style:italic;
+    text-decoration:underline;
+    /* text-decoration-line:underline;
+    text-decoration-color:green;
+    text-decoration-style:dashed;
+    text-decoration-thickness:5px;
+    아직 크로스브라우징 안되는 상황 */
+    letter-spacing:5px;
+}
+
+/* .text2 들여쓰기는 + 내어쓰기는 -  uppercase 모두대문자로 */
+.text2{
+    text-indent:20px;
+    text-transform:lowercase;
+    word-spacing:20px;
+}
+
+/* 줄간격 3은 원래 기본글씨크기의 3배로 줄간격 생김(위아래로) */
+#idText{
+    line-height:3;
+}

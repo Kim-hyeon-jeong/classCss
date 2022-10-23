@@ -1,0 +1,37 @@
+*{
+    margin:0;
+}
+h1{
+    background-color: skyblue;
+    margin-bottom:50px;
+}
+
+p{
+    background-color: pink;
+    margin-left:100px;
+    margin-bottom:100px;
+}
+
+div{
+    background-color: greenyellow;
+    border:1px solid black;
+}
+
+.box1{
+    margin:20px;
+}
+/*  마진겹침현상 위에 요소에서 준 margin-bottom 과
+현 요소에서 준 margin-top중 큰 값만 적용되는 현상
+위아래만 적용된다 좌우는 아님 */
+
+.box2{
+    margin:20px 100px;
+}
+
+.box3{
+    margin:10px 30px 100px;
+}
+
+.box4{
+    margin:100px 50px 150px 10px;
+}

@@ -1,0 +1,12 @@
+/* 기본 검정 동그라미를 사각형으로 */
+.list>li{
+    list-style:square;
+}
+
+ol>li{
+    list-style:upper-roman;
+}
+
+.gnb>li{
+    list-style:none;
+}

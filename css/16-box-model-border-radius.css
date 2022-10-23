@@ -1,0 +1,34 @@
+div{
+    width:300px;
+    height:100px;
+    background-color:pink;
+    margin:10px;
+}
+
+.box1{
+    border-radius:20px;
+}
+
+.box2{
+    border-radius:10px 30px;
+}
+
+.box3{
+    border-radius:10px 30px 50px;
+}
+
+.box4{
+    border-radius:10px 0 30px 50px;
+}
+
+.box5{
+    border-end-end-radius: 50px;
+}
+
+.box6{
+    border-start-end-radius: 30px;
+}
+/* start는 top과 같은 의미, end는 bottom과 같은 의미 */
+.box7{
+    border-radius: 20px/50px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width:100px;
+            height: 100px;
+            background-color: deepskyblue;
+            border-radius: 50%;
+            position:absolute;
+            /*위치값 잡기위해 포지션줌 */
+            animation-name: ani;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            /* from->to->to->from */
+        }
+        @keyframes ani{
+            from{
+                left:10px;
+                top:10px;
+            }
+            /* 애니메이션시작속성 */
+            50%{
+                left:800px;
+                top:10px;
+            }
+            /* 중간단계 전체애니메이션시간의 절반 : 2.5s */
+            70%{
+                left:500px;
+                top:600px;
+            }
+            to{
+                left:10px;
+                top:10px;
+            }
+            /* 애니메이션종료속성 */
+        }
+        /* 애니메이션은 외부에다 설정 */
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

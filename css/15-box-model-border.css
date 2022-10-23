@@ -1,0 +1,27 @@
+div{
+    background:dodgerblue;
+    width:300px;
+    height:100px;
+    margin:20px;
+}
+
+.box1{
+    border-width:2px;
+    border-style:solid;
+    border-color: red;
+}
+
+.box2{
+    border-right:5px solid green;
+}
+
+.box3{
+    border:5px dashed black;
+}
+
+.box4{
+    outline:5px dotted pink;
+}
+/* 보더는 박스사이즈 커지고 박스안쪽에 선이 생김
+아웃라인은 박스사이즈 동일한데 박스밖에 선이 생김
+아웃라인은 잘 안쓰임 */

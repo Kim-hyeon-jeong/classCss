@@ -1,0 +1,32 @@
+*{
+    margin:0;
+}
+
+li{
+    list-style:none;
+}
+
+.sns>li>a{
+    display:block;
+    border:1px solid #bab2aa;
+    border-radius:50%;
+    width:33px;
+    height:33px;
+    background-image: url(../images/KakaoTalk_20220412_161107045.png);
+}
+
+.sns>.facebook>a{
+    background-position: -31.5px -2px;
+}
+
+.sns>.blog>a{
+    background-position: -99px -2px;
+}
+
+.sns>.insta>a{
+    background-position: -198px -2px;
+}
+
+.sns>.youtube>a{
+    background-position: -66px -2px;
+}

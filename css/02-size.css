@@ -1,0 +1,28 @@
+/* 전체 글자크기를 20px
+기본 크기 16px */
+
+*{
+    font-size:20px;
+}
+
+/* size2 font-size:32px */
+.size2{
+    font-size:32px;
+}
+
+/* size3 font-size:2em 기존 부모에서 2배 기존 20의 2배라 40px*/
+.size3{
+    font-size:2em;
+}
+
+/* size4 font-size:2rem 최상단에서 정해진 크기의 2배 root 뿌리 따라서 40px */
+.size4{
+    font-size:2rem;
+}
+
+/* size5 소문자x를 기준으로 ex (두배) - 빈도수 낮음 */
+.size5{
+    font-size:2ex;
+}
+
+/* size6 % 글자에서는 사용안됨 다른요소들에서 */

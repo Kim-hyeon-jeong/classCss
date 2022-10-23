@@ -1,0 +1,43 @@
+*{
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color:#444;
+}
+
+li{
+    list-style: none;
+}
+.noticeWrap{
+    border:1px solid #dadada;
+    width:490px;
+    margin:50px;
+    border-radius:5px;
+    background:url(../images/KakaoTalk_20220412_165026562.gif) no-repeat 20px 70px;
+}
+
+.title{
+    margin:25px 0 0 30px;
+    font-size:18px;
+}
+
+.notice{
+    font-size:12px;
+    margin:20px 0 0 100px;
+    line-height:2;
+    /* 라인하이트는 단위생략가능한데 생략시 배수로감 */
+}
+
+.more>a{
+    display:block;
+    width:25px;
+    height:25px;
+    background:#d5d5d5;
+    border-radius:50%;
+    font-weight:bold;
+    font-size:25px;
+    text-align:center;
+    line-height:25px;
+}
