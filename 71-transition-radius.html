@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background: #ccc;
+            width:200px;
+            height:200px;
+            line-height:200px;
+            text-align: center;
+            border-radius:100px;
+            position: relative;
+            transition:0.5s;
+            /* 트랜지션은 호버에게주는게 아니라 기본대상에 줘야한다
+            그래야 호버했을떄 뿐아니라 호버제거할때에도 효과적용이된다 */
+        }
+        img{
+            position: absolute;
+            left:50%;
+            top:50%;
+            transform:translateX(-50%) translateY(-50%)
+        }
+        .box:hover{
+            border-radius: 20px;
+        }
+        /* 이렇게 간단히 움직이는건 css를 쓴다 */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p><img src="images/logo_baskinrobbins.png" alt=""></p>
+    </div>
+</body>
+</html>

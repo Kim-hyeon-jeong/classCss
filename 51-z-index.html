@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+        }
+        .box1{
+            background-color: red;
+            position:absolute;
+            /* 공중붕뜨고 아래게 위로올라감 부모 바디기준 */
+            left:60px;
+            top:60px;
+            z-index:10;
+            /* 숫자 크면 상단으로 올라감 */
+        }
+        .box2{
+            background-color: green;
+            position:relative;
+            /* 붕뜨는것 없이 자기기준 단순히 가장 상단으로 올라감 */
+        }
+        .box3{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+</body>
+</html>

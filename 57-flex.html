@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            /* width:600px; */
+            background-color: antiquewhite;
+            display:inline-flex;
+            /* 자식사이즈맞게 부모사이즈줄어나타남 
+            그냥 플렉스하면 부모사이즈는 부모대로 자식자식대로 */
+            justify-content: flex-start;
+            /* 좌우 간격 조절 */
+            /* 뭉텅이로 움직임 */
+            /* flex-start flex-end center space 3세트 */
+            /* 위아래조절은 아래와같다 */
+            align-items: center;
+            /* flex-direction: row-reverse; */
+            /* start로 로우리버스주면 오른쪽에 순서대로붙임 */
+            flex-wrap: wrap;
+            /* 자식을 부모에게서 떨어뜨릴수있다 
+            따로 랩처리안하면 자식이 좁아진상태로있는다 */
+            /* 부모의 공간이 모자랄 경우 아래로 내려가게 할때 사용, 기본은 안내려감 */
+        }
+        .wrap>div{
+            width:100px;
+            height: 100px;
+            border:3px solid black;
+        }
+        .wrap>.box1{
+
+        }
+        .wrap>.box2{
+            width:150px;
+            height: 150px;
+        }
+        .wrap>.box3{
+            width:200px;
+            height: 200px;
+        }
+        .wrap>.box4{
+            width:250px;
+            height: 250px;
+        }
+        .wrap>.box5{
+            width:300px;
+            height: 300px;
+        }
+        .wrap>.box6{
+            height:400px;
+        }
+        .wrap>.box7{
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+        <div class="box6">box6</div>
+        <div class="box7">box7</div>
+    </div>
+</body>
+</html>

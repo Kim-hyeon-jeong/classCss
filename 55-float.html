@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            border:2px solid black;
+        }
+        .wrap::after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+        .wrap>div{
+            width:100px;
+            height:100px;
+            border:2px solid blue;
+        }
+        .box1{
+            float:left;
+        }
+        .box2{
+            float:right;
+        }
+        .box3{
+            float:left;
+        }
+        .box4{
+            float:left;
+        }
+        /* 부모의 공간은 마무리할때 무조건 살려야한다 
+        부모가 자식들보다 더 커야 플롯햇을때 주르륵 옆에 잘 붙는다*/
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+    </div>
+</body>
+</html>

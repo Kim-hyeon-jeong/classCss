@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+            width:300px;
+            height: 60px;
+            border-radius: 30px;
+            padding:2px;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#49c0f0+0,f7f94d+25,ed49d7+45,a745d8+65,ef5a4c+82,2cafe3+100 */
+background: rgb(73,192,240); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(73,192,240,1) 0%, rgba(247,249,77,1) 25%, rgba(237,73,215,1) 45%, rgba(167,69,216,1) 65%, rgba(239,90,76,1) 82%, rgba(44,175,227,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(73,192,240,1) 0%,rgba(247,249,77,1) 25%,rgba(237,73,215,1) 45%,rgba(167,69,216,1) 65%,rgba(239,90,76,1) 82%,rgba(44,175,227,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(73,192,240,1) 0%,rgba(247,249,77,1) 25%,rgba(237,73,215,1) 45%,rgba(167,69,216,1) 65%,rgba(239,90,76,1) 82%,rgba(44,175,227,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49c0f0', endColorstr='#2cafe3',GradientType=1 ); /* IE6-9 */
+            text-align: center;
+            line-height: 60px;
+            background-size: 400%;
+            background-position: 0 0;
+            transition:7s;
+        }
+        /* background가 대표속성이므로 먼저써주고 세부속성 size position
+        등은 아래에 깔아야한다 */
+        .btn:hover{
+            background-position: 400% 0;
+        }
+        .btn>span{
+            background-color: white;
+            display: block;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="btn">
+        <span>자세히보기</span>
+    </div>
+</body>
+</html>
